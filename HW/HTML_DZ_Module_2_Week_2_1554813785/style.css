@@ -1,0 +1,52 @@
+/* ЗАДАНИЕ 1 */
+
+.TASK_1 .block {
+    background-color: rgb(255, 147, 147);
+    width: 400px;
+    padding: 10px;
+    color: white;
+}
+
+.TASK_1 .block ol {
+    background-color: rgb(255, 86, 86);
+    padding-left: 25px;
+    margin: 10px;
+}
+
+.TASK_1 .block li {
+    background-color: rgb(255, 0, 0);
+    padding: 5px;
+    margin: 5px 0px;
+    width: min-content;
+}
+
+
+/* ЗАДАНИЕ 2 */
+
+.TASK_2 .card {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    padding: 0px 20px;
+}
+
+.TASK_2 .card p {
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+.close_img {
+    color: red;
+}
+
+.made {
+    background-color: white;
+}
+
+.made .content {
+    text-decoration: line-through;
+}
+
+.in_progress {
+    background-color: #42aaff;
+}
