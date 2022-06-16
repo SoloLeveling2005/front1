@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реализовать html-страницу со списком задач</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body class="TASK_2">
+    <div class="menu">
+        <div>
+            <div class="new_color_no" class="title">MENU</div>
+            <div class="new_color"><span class="material-symbols-outlined">
+                    edit
+                    </span>
+                <p class="text">EDIT</p>
+            </div>
+            <div class="new_color"><span class="material-symbols-outlined">
+                    favorite
+                    </span>
+                <p class="text">FAVORITE</p>
+            </div>
+            <div class="new_color"><span class="material-symbols-outlined">
+                    schedule
+                    </span>
+                <p class="text">HISTORY</p>
+            </div>
+            <div class="new_color"><span class="material-symbols-outlined">
+                    shield
+                    </span>
+                <p class="text">SECURITY</p>
+            </div>
+            <div class="new_color"><span class="material-symbols-outlined">
+                    tune
+                    </span>
+                <p class="text">SETTINGS</p>
+            </div>
+        </div>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            table {
+                border-spacing: 0px;
+                border-collapse: collapse;
+            }
+            
+            body {
+                width: 100vw;
+                height: 100vh;
+            }
+            
+            .menu {
+                width: 90px;
+                height: 100vh;
+                position: fixed;
+                background-color: #8a8a8a;
+                left: 0;
+                transition-property: width;
+                transition-duration: 1s;
+                color: white !important;
+            }
+            
+            .content {
+                margin-left: 100px;
+                width: calc(100%-100px);
+                height: 100%;
+                background-color: #f6f6f6;
+                padding: 40px;
+            }
+            
+            .menu:hover {
+                /* min-width: 250px; */
+                width: 250px;
+            }
+            
+            .menu:hover .text {
+                display: block;
+                color: white;
+            }
+            
+            .new_color {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                padding: 10px 30px;
+                color: white;
+            }
+            
+            .new_color_no {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                padding: 10px 20px;
+            }
+            
+            .text {
+                display: none;
+                padding: 10px 30px;
+                color: white !important;
+            }
+            /* .menu .new_color:hover .text {
+                display: block;
+                color: white !important;
+            } */
+            
+            span {
+                color: blue;
+            }
+            
+            .menu .new_color:hover {
+                background-color: #696969;
+            }
+        </style>
+
+
+    </div>
+    <div class="content">
+        <h2>WHAT IS LOREM IPSUM?</h2>
+        <p>LOREM IPSUM IS SIMPLY DUMMY TEXT OF THE PRINTING AND TYPESETTING INDUSTRY. LOREM IPSUM HAS BEEN THE INDUSTRY'S STANDARD DUMMY TEXT EVER SINCE THE 1500S, WHEN AN UNKNOWN PRINTER TOOK A GALLEY OF TYPE AND SCRAMBLED IT TO MAKE A TYPE SPECIMEN BOOK.
+            IT HAS SURVIVED NOT ONLY FIVE CENTURIES, BUT ALSO THE LEAP INTO ELECTRONIC TYPESETTING, REMAINING ESSENTIALLY UNCHANGED. IT WAS POPULARISED IN THE 1960S WITH THE RELEASE OF LETRASET SHEETS CONTAINING LOREM IPSUM PASSAGES, AND MORE RECENTLY
+            WITH DESKTOP PUBLISHING SOFTWARE LIKE ALDUS PAGEMAKER INCLUDING VERSIONS OF LOREM IPSUM.</p>
+        <h2>WHY DO WE USE IT?</h2>
+        <p>IT IS A LONG ESTABLISHED FACT THAT A READER WILL BE DISTRACTED BY THE READABLE CONTENT OF A PAGE WHEN LOOKING AT ITS LAYOUT. THE POINT OF USING LOREM IPSUM IS THAT IT HAS A MORE-OR-LESS NORMAL DISTRIBUTION OF LETTERS, AS OPPOSED TO USING 'CONTENT
+            HERE, CONTENT HERE', MAKING IT LOOK LIKE READABLE ENGLISH. MANY DESKTOP PUBLISHING PACKAGES AND WEB PAGE EDITORS NOW USE LOREM IPSUM AS THEIR DEFAULT MODEL TEXT, AND A SEARCH FOR 'LOREM IPSUM' WILL UNCOVER MANY WEB SITES STILL IN THEIR INFANCY.
+            VARIOUS VERSIONS HAVE EVOLVED OVER THE YEARS, SOMETIMES BY ACCIDENT, SOMETIMES ON PURPOSE (INJECTED HUMOUR AND THE LIKE).</p>
+        <h2>WHERE DOES IT COME FROM?</h2>
+        <p>CONTRARY TO POPULAR BELIEF, LOREM IPSUM IS NOT SIMPLY RANDOM TEXT. IT HAS ROOTS IN A PIECE OF CLASSICAL LATIN LITERATURE FROM 45 BC, MAKING IT OVER 2000 YEARS OLD. RICHARD MCCLINTOCK, A LATIN PROFESSOR AT HAMPDEN-SYDNEY COLLEGE IN VIRGINIA, LOOKED
+            UP ONE OF THE MORE OBSCURE LATIN WORDS, CONSECTETUR, FROM A LOREM IPSUM PASSAGE, AND GOING THROUGH THE CITES OF THE WORD IN CLASSICAL LITERATURE, DISCOVERED THE UNDOUBTABLE SOURCE. LOREM IPSUM COMES FROM</p>
+    </div>
+
+</body>
+
+</html>

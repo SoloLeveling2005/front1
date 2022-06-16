@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="parent-div" style="justify-content: flex-start;">
+        <div class="child">justify-content <br> flex-start</div>
+        <div class="child">justify-content <br> flex-start</div>
+        <div class="child">justify-content <br> flex-start</div>
+    </div>
+    <div class="parent-div" style="justify-content: flex-end;">
+        <div class="child">justify-content <br> flex-end</div>
+        <div class="child">justify-content <br> flex-end</div>
+        <div class="child">justify-content <br> flex-end</div>
+    </div>
+    <div class="parent-div" style="justify-content: center;">
+        <div class="child">justify-content <br> center</div>
+        <div class="child">justify-content <br> center</div>
+        <div class="child">justify-content <br> center</div>
+    </div>
+    <div class="parent-div" style="justify-content: space-between;">
+        <div class="child">justify-content <br> space-between</div>
+        <div class="child">justify-content <br> space-between</div>
+        <div class="child">justify-content <br> space-between</div>
+    </div>
+    <div class="parent-div" style="align-items: flex-start;">
+        <div class="child">align-items <br> flex-start</div>
+        <div class="child">align-items <br> flex-start</div>
+        <div class="child">align-items <br> flex-start</div>
+    </div>
+    <div class="parent-div" style="align-items: flex-end;">
+        <div class="child">align-items <br> flex-end</div>
+        <div class="child">align-items <br> flex-end</div>
+        <div class="child">align-items <br> flex-end</div>
+    </div>
+    <div class="parent-div" style="align-items: center;">
+        <div class="child">align-items <br> center</div>
+        <div class="child">align-items <br> center</div>
+        <div class="child">align-items <br> center</div>
+    </div>
+    <div class="parent-div" style="flex-direction: row-reverse;">
+        <div class="child">flex-direction <br> row-reverse</div>
+        <div class="child">flex-direction <br> row-reverse</div>
+        <div class="child">flex-direction <br> row-reverse</div>
+    </div>
+    <div class="parent-div" style="flex-direction: column;">
+        <div class="child">flex-direction <br> column</div>
+        <div class="child">flex-direction <br> column</div>
+        <div class="child">flex-direction <br> column</div>
+    </div>
+    <div class="parent-div" style="flex-direction: column-reverse;">
+        <div class="child">flex-direction <br> column-reverse</div>
+        <div class="child">flex-direction <br> column-reverse</div>
+        <div class="child">flex-direction <br> column-reverse</div>
+    </div>
+
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .parent-div {
+            width: 60vw;
+            min-height: 20vh;
+            max-height: 20vh;
+            display: flex;
+            border: 1px solid black;
+            margin: 10px 0px;
+        }
+        
+        .child {
+            flex-direction: column;
+            background-color: rgba(0, 0, 0, 0.336);
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</body>
+
+</html>
