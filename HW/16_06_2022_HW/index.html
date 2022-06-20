@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="logo">Пицца</h1>
+    </header>
+
+    <div class="div-left">
+        <img src="one.jpeg" alt="">
+        <img src="two.jpeg" alt="">
+        <img src="three.jpeg" alt="">
+    </div>
+    <div class="div-center">
+        <header class="header1">Мы</header>
+        <header class="header3">Идеальные ингредиенты</header>
+        <p>Почему мы так хотим познакомиться? Потому что дальше пицца делает всё сама. Люди видят, что она вкусная, и возвращаются снова. Нам главное первый раз это показать. Вообще пицца — очень простая штука, её сложно испортить. Достаточно хороших ингредиентов
+            и правильного теста. Это конструктор, если детали качественные, то и результат будет в порядке.</p>
+    </div>
+    <div class="div-right">
+        <img src="four.jpeg" alt="">
+        <img src="five.jpeg" alt="">
+        <img src="six.jpeg" alt="">
+    </div>
+
+    <footer>
+        <a href="https://rabotavdodo.kz/">В пиццерии</a>
+        <a href="https://dodofranchise.ru/">Франшиза</a>
+        <a href="https://dodobrands.io/ru/post/dodobook1-0/">Додо-книга</a>
+        <a href="https://www.dodokids.ru/">Экскурсии и мастер-классы</a>
+    </footer>
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        img {
+            width: 150px;
+            height: 150px;
+        }
+        
+        p {
+            font-size: 16px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        .header {
+            width: calc(100% - 40px);
+            padding: 20px;
+            background-color: rgb(184, 184, 184);
+            text-align: center;
+            position: fixed;
+            top: 0;
+        }
+        
+        .header1 {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        
+        .header3 {
+            font-size: 22px;
+            font-weight: bold;
+        }
+        
+        footer {
+            width: calc(100% - 40px);
+            padding: 20px;
+            background-color: rgb(184, 184, 184);
+            bottom: 0;
+            position: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        footer a {
+            margin: 5px 20px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        
+        .logo {
+            font-size: 32px;
+        }
+        
+        .div-left {
+            width: 10%;
+            height: 65%;
+            background-color: rgb(184, 184, 184);
+            padding: 20px;
+            margin: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .div-center {
+            width: 25%;
+            height: 65%;
+            background-color: rgb(184, 184, 184);
+            padding: 20px;
+            margin: 20px;
+        }
+        
+        .div-right {
+            width: 10%;
+            height: 65%;
+            background-color: rgb(184, 184, 184);
+            padding: 20px;
+            margin: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</body>
+
+</html>
