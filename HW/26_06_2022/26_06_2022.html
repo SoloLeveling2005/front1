@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <form action="">
+            <div style="text-align:left;">
+                <h1>Введите E-mail:</h1>
+                <input type="email" placeholder="E-mail"><br>
+            </div>
+            <br>
+            <div style="text-align:left;">
+                <h1>Введите Password:</h1>
+                <input type="password" placeholder="Password"><br>
+            </div>
+            <br>
+
+            <button class="button" tabindex="1">Log in</button>
+        </form>
+
+    </div>
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        form {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        input {
+            padding: 10px;
+            font-size: 16px;
+        }
+        
+        input:focus {
+            animation: focus 2.5s forwards;
+        }
+        
+        @keyframes focus {
+            0% {
+                color: black;
+            }
+            100% {
+                color: white;
+            }
+        }
+        
+        h1 {
+            font-size: 16px;
+        }
+        
+        button {
+            color: black;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 10px 30px;
+            font-size: 18px;
+            font-weight: normal;
+        }
+        
+        input:active {
+            background-color: red;
+        }
+        
+        .inputFormFeedback input:focus,
+        #textareaFormFeedback:focus {
+            border: 1px solid #f2ae30;
+        }
+        
+        button:hover {
+            animation: ani 2.5s forwards;
+        }
+        
+        @keyframes ani {
+            0% {
+                color: black;
+                background-color: white;
+            }
+            100% {
+                background-color: grey;
+                color: white;
+            }
+        }
+    </style>
+</body>
+
+</html>
