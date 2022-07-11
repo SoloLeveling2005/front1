@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Выполните вход или зарегестрируйтесь</title>
+    <link rel="icon" href="https://static.xx.fbcdn.net/rsrc.php/yb/r/hLRJ1GG_y0J.ico">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <img class="logo" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="">
+
+    <section class="main">
+        <div class="div-title">Создать аккаунт</div>
+        <div class="div-mini-title">Быстро и легко.</div>
+        <div class="div-main">
+            <div class="div-inputs-firstname_and_secondname">
+                <input class="firstname" type="text" placeholder="Имя">
+                <input class="secondname" type="text" placeholder="Фамилия">
+            </div>
+            <div class="div-input-email_or_number">
+                <input class="email_or_number" type="text" placeholder="Номер моюильного телефона или эл.адрес">
+            </div>
+            <div class="div-input-password">
+                <input class="password" type="text" placeholder="Новый пароль">
+            </div>
+            <p class="p-birthday">Дата рождения</p>
+            <div class="div-select-birthday" id="id-select-birthday">
+                <select name="day">
+                    <option selected>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+                <select name="mounth" id="mounth">
+                    <option selected>1</option>
+
+                </select>
+                <select name="year" id="year">
+                </select>
+            </div>
+            <p class="p-gender">Пол</p>
+            <div class="div-inputs-gender">
+                <span>
+                    <label for="">Женщина</label>
+                    <input name="gender" class="female gender" type="radio" >
+                </span>
+                <span>
+                    <label for="">Мужчина</label>
+                    <input name="gender" class="male gender" type="radio" >
+                </span>
+                <span>
+                    <label for="">Другой</label>
+                    <input name="gender" class="other gender" type="radio" >
+                </span>
+            </div>
+            <p class="p-info-1">
+                Люди, которые пользуются нашим сервисом, могли загрузить вашу контактную информацию на Facebook.
+                <a href="">Подробнее</a>
+            </p>
+            <p class="p-info-2">
+                Нажимая кнопку Регистрация, вы принимаете Условия, <a href="">Политику использования данных</a> и <a href="">Политику в отношении файлов cookie</a>. Вы можете получать от нас SMS-уведомления, отказаться от которых можно в любой момент.
+            </p>
+            <div class="div-button-reg_or_a_log">
+                <button class="reg">Регистрация</button>
+
+                <a href="">У вас уже есть аккаунт?</a>
+            </div>
+        </div>
+
+    </section>
+    <script>
+        var min = 2,
+            max = 30,
+            select = document.getElementById('mounth');
+
+        for (var i = min; i <= max; i++) {
+            var opt = document.createElement('option');
+            opt.value = i;
+            opt.innerHTML = i;
+            select.appendChild(opt);
+        }
+
+
+        var min = 1900,
+            max = 2021,
+            select = document.getElementById('year');
+
+        for (var i = min; i <= max; i++) {
+            var opt = document.createElement('option');
+            opt.value = i;
+            opt.innerHTML = i;
+            select.appendChild(opt);
+        }
+    </script>
+</body>
+
+</html>

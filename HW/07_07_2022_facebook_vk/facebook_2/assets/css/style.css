@@ -1,0 +1,212 @@
+* {
+    /* margin: 0px;
+    padding: 0px; */
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.897);
+}
+
+input {
+    border: .5px solid rgba(0, 0, 0, 0.5) !important;
+    border-radius: 6px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* Не знаю как это работает но эти два стиля взаимосвязаны и не работают друг без друга */
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    /* Не знаю как это работает но эти два стиля взаимосвязаны и не работают друг без друга */
+    padding-top: 20px;
+    box-shadow: 0 0 10px rgba(122, 122, 122, 0.4);
+    width: 440px;
+    height: 550px;
+    margin: 40px;
+    border: 0px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.div-main {
+    width: 100%;
+    height: calc(100% - 80px);
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: 20px; */
+    padding: 20px;
+    padding-top: 0px;
+    border-top: .5px solid rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    width: 300px;
+    height: 105px;
+    margin: -28px;
+}
+
+.div-title {
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    width: 100%;
+    height: min-content;
+}
+
+.div-mini-title {
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    width: 100%;
+    height: min-content;
+}
+
+.div-inputs-firstname_and_secondname {
+    display: flex;
+    width: 99%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.div-inputs-firstname_and_secondname input {
+    font-size: 15px;
+    line-height: 16px;
+    width: 168px;
+    padding: 11px;
+}
+
+.div-input-email_or_number {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.div-input-email_or_number input {
+    font-size: 15px;
+    line-height: 16px;
+    width: 92.5%;
+    padding: 11px;
+}
+
+.div-input-password {
+    width: 100%;
+}
+
+.div-input-password input {
+    font-size: 15px;
+    line-height: 16px;
+    width: 92.5%;
+    padding: 11px;
+}
+
+.p-birthday {
+    width: 100%;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.div-select-birthday {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-select-birthday select {
+    border-radius: 4px;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+    width: 32%;
+}
+
+.p-gender {
+    width: 100%;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.div-inputs-gender {
+    width: 100%;
+}
+
+.div-inputs-gender span {
+    display: inline-block;
+    width: 26%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding: 10px 12px;
+    position: relative;
+}
+
+.div-inputs-gender span input {
+    margin-left: auto;
+    position: absolute;
+    right: 2px;
+}
+
+.p-info-1 {
+    font-family: inherit;
+    font-size: 11px;
+    margin: 5px 0px;
+    opacity: .8;
+}
+
+.p-info-2 {
+    font-family: inherit;
+    font-size: 11px;
+    margin: 0px 0px;
+    opacity: .8;
+}
+
+.div-button-reg_or_a_log {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reg {
+    width: 55%;
+    background-color: #00a400;
+    padding: 6px 32px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    margin: 12px;
+}
+
+.reg:hover {
+    opacity: .9;
+}
+
+.div-button-reg_or_a_log a {
+    color: #1877f2;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+}

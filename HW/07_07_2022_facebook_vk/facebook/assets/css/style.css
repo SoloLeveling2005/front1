@@ -1,0 +1,106 @@
+* {
+    /* margin: 0px;
+    padding: 0px; */
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.897);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Не знаю как это работает но эти два стиля взаимосвязаны и не работают друг без друга */
+}
+
+.main {
+    width: min-content;
+    display: flex;
+    margin: auto;
+    /* Не знаю как это работает но эти два стиля взаимосвязаны и не работают друг без друга */
+}
+
+.div-title {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.logo {
+    width: 300px;
+    height: 105px;
+    margin: -28px;
+}
+
+.mini_title {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+
+.div-form {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 37vw;
+    max-width: 378px;
+    box-shadow: 0 0 10px rgba(122, 122, 122, 0.5);
+    padding: 30px 0px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.div-form input {
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.316);
+    padding: 18px;
+    margin: 5px;
+    width: 75%;
+    font-size: 17px;
+}
+
+.div-form button {
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 10px;
+    width: 85%;
+}
+
+.hr {
+    width: 80%;
+    height: .3px;
+    background-color: black;
+    opacity: .3;
+    margin: 10px;
+}
+
+.forgot_your_password {
+    padding: 5px;
+}
+
+.login {
+    font-family: inherit;
+    font-size: 20px;
+    background-color: #1877f2;
+    color: white;
+    margin: 10px 0 0 0;
+}
+
+.create_new_password {
+    font-family: inherit;
+    font-size: 17px;
+    background-color: #42b72a;
+    color: white;
+}
